@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .background-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .warning {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .input-group i {
+    background-color: #f4f4f4;
+    padding: 10px;
+    color: #666;
+  }
+  
+  .input-group input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn {
+    background-color: #f77f00;
+  }
+  
+  .login-btn:hover {
+    background-color: #e67300;
+  }
+  
+  .bind-btn {
+    background-color: #4caf50;
+  }
+  
+  .bind-btn:hover {
+    background-color: #43a047;
+  }
+  
+  .extra-btns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .one-key-login-btn {
+    background-color: #4caf50;
+  }
+  
+  .one-key-login-btn:hover {
+    background-color: #43a047;
+  }
+  
+  .forget-pwd-btn {
+    background-color: #2196f3;
+  }
+  
+  .forget-pwd-btn:hover {
+    background-color: #1976d2;
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./hello1.css">
+  <link rel="stylesheet" href="./hello2.js">
+  <title>登录页面</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>登录</h1>
+    <img src="../图片/shanghai.jpg" alt="背景图" class="background-img">
+    <p class="warning">本小程序仅支持慧联控用户使用</p>
+    <p class="description">本小程序主要用于开启后勤智能设备,为了建立完善的用户管理体系,请先绑定或登录,谢谢您的配合</p>
+    <form id="login-form">
+      <div class="input-group">
+        <i class="icon-user"></i>
+        <input type="text" placeholder="账号/用户卡号" id="account">
+      </div>
+      <div class="input-group">
+        <i class="icon-lock"></i>
+        <input type="password" placeholder="密码" id="password">
+      </div>
+      <button type="button" class="btn login-btn" id="login-btn">登录</button>
+      <button type="button" class="btn bind-btn" id="bind-btn">绑定</button>
+    </form>
+    <div class="extra-btns">
+      <button type="button" class="btn one-key-login-btn" id="one-key-login-btn">一键登录</button>
+      <button type="button" class="btn forget-pwd-btn" id="forget-pwd-btn">忘记密码</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
